@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+        }
+    
+        .sidenav {
+          height: 100%;
+          width: 60px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          background-color: transparent;
+          padding-top: 20px;
+        }
+    
+        .sidenav a {
+          position: absolute;
+          left: 0;
+          transition: 0.3s;
+          padding: 16px;
+          width: 60px;
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+          border-radius: 0 5px 5px 0;
+        }
+    
+        .sidenav a:hover {
+          width: 180px;
+        }
+    
+        .green {
+          top: 20px;
+          background-color: #04AA6D;
+        }
+    
+        .blue {
+          top: 70px;
+          background-color: #2196F3;
+        }
+    
+        .red {
+          top: 120px;
+          background-color: #f44336;
+        }
+    
+        .gray {
+          top: 170px;
+          background-color: #555;
+        }
+    
+        .main {
+          margin-left: 80px;
+          padding: 20px;
+          border: 1px solid black;
+          height: 50vh;
+        }
+    
+        h2 {
+          font-weight: bold;
+        }
+    
+        p {
+          color: gray;
+        }
+      </style>
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#" class="green"></a>
+        <a href="#" class="blue"></a>
+        <a href="#" class="red"></a>
+        <a href="#" class="gray"></a>
+      </div>
+      
+      <div class="main">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+      </div>
+      
+    
+</body>
+</html>

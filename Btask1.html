@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Builderz Template</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      background-color: #f9b233;
+      padding: 10px 0;
+    }
+
+    .topbar .icon-text {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .topbar .icon-text i {
+      font-size: 18px;
+      margin-right: 8px;
+    }
+
+    .navbar-custom {
+      background-color: #0b1d3a;
+    }
+
+    .navbar-custom .nav-link,
+    .navbar-custom .navbar-brand {
+      color: white;
+    }
+
+    .navbar-custom .nav-link.active {
+      color: #f9b233;
+    }
+
+    .hero {
+      position: relative;
+      background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+      height: 500px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-overlay {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      padding: 50px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .feature-box {
+      padding: 30px;
+      color: white;
+    }
+
+    .bg-yellow {
+      background-color: #f9b233;
+    }
+
+    .bg-blue {
+      background-color: #0b1d3a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar text-white">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 icon-text"><i class="bi bi-calendar-event"></i> Opening Hour: Mon - Fri, 8:00 - 6:00</div>
+        <div class="col-md-4 icon-text"><i class="bi bi-telephone"></i> Call Us: +012 345 6789</div>
+        <div class="col-md-4 icon-text"><i class="bi bi-envelope"></i> Email: info@example.com</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Builderz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Project</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Page 1</a></li>
+              <li><a class="dropdown-item" href="#">Page 2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <a class="btn btn-outline-light ms-3" href="#">Get A Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-overlay">
+      <h5 class="mb-2">We Are Professional</h5>
+      <h1 class="mb-4">For Your Dream Project</h1>
+      <a href="#" class="btn btn-outline-light">Get A Quote</a>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="row text-center">
+    <div class="col-md-4 bg-blue feature-box">
+      <i class="bi bi-person-gear fs-1 mb-3"></i>
+      <h5 class="fw-bold text-warning">Expert Worker</h5>
+      <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non.</p>
+    </div>
+    <div class="col-md-4 bg-yellow feature-box text-dark">
+      <i class="bi bi-building fs-1 mb-3"></i>
+      <h5 class="fw-bold">Quality Work</h5>
+      <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non.</p>
+    </div>
+    <div class="col-md-4 bg-blue feature-box">
+      <i class="bi bi-headset fs-1 mb-3"></i>
+      <h5 class="fw-bold text-warning">24/7 Support</h5>
+      <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium ornare velit non.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

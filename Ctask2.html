@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: flex-start;
+          margin-top: 50px;
+        }
+    
+        /* Common nav styling */
+        .nav-bar {
+          border: 3px solid black;
+        }
+    
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+          width: 150px;
+          background-color: lightblue;
+        }
+    
+        .vertical-nav a {
+          display: block;
+          padding: 10px;
+          text-decoration: none;
+          color: blue;
+          font-size: 18px;
+        }
+    
+        .vertical-nav a:first-child {
+          background-color: orange;
+          color: white;
+          font-weight: bold;
+        }
+    
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+          display: flex;
+          width: fit-content;
+          background-color: rgb(201, 197, 197);
+        }
+    
+        .horizontal-nav a {
+          padding: 20px 40px;
+          text-decoration: none;
+          border-right: 1px solid blue;
+          color: blue;
+          font-size: 18px;
+        }
+    
+        .horizontal-nav a:first-child {
+          background-color: gray;
+          color: white;
+          font-weight: bold;
+        }
+    
+        .horizontal-container {
+          margin-top: 60px;
+        }
+    
+        h3 {
+          margin-bottom: 10px;
+        }
+      </style>
+</head>
+<body>
+    <div>
+        <h3>Vertical Navigation Bar</h3>
+        <div class="nav-bar vertical-nav">
+          <a href="#">Home</a>
+          <a href="#">Java</a>
+          <a href="#">CSS</a>
+          <a href="#">HTML</a>
+          <a href="#">Bootstrap</a>
+        </div>
+      </div>
+    
+      <!-- Horizontal Navigation -->
+      <div class="horizontal-container">
+        <h3>Horizontal Navigation Bar</h3>
+        <div class="nav-bar horizontal-nav">
+          <a href="#">Home</a>
+          <a href="https://www.programiz.com/java-programming/online-compiler/" target="_blank">Java</a>
+          <a href="#">HTML</a>
+          <a href="#">CSS</a>
+        </div>
+      </div>
+    
+</body>
+</html>

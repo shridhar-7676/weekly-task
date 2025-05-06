@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .pricing-header {
+      max-width: 700px;
+      margin: auto;
+    }
+    .card-header {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .card-price {
+      font-size: 2.5rem;
+    }
+    .footer {
+      border-top: 1px solid #e5e5e5;
+      margin-top: 50px;
+      padding-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="p-3 mb-3 border-bottom">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-between">
+      <a href="#" class="text-dark text-decoration-none fs-4">Company name</a>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Enterprise</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Support</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="btn btn-outline-primary">Sign up</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- Pricing Header -->
+<div class="text-center pricing-header mb-5">
+  <h1 class="display-4">Pricing</h1>
+  <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+</div>
+
+<!-- Pricing Cards -->
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          Free
+        </div>
+        <div class="card-body">
+          <h1 class="card-price">$0 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-outline-primary">Sign up for free</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          Pro
+        </div>
+        <div class="card-body">
+          <h1 class="card-price">$15 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>20 users included</li>
+            <li>10 GB of storage</li>
+            <li>Priority email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-primary">Get started</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          Enterprise
+        </div>
+        <div class="card-body">
+          <h1 class="card-price">$29 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>30 users included</li>
+            <li>15 GB of storage</li>
+            <li>Phone and email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="w-100 btn btn-primary">Contact us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer container">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
+        <path d="M5.062 12.554h3.26c2.045 0 3.395-.938 3.395-2.497 0-1.118-.747-1.902-1.78-2.112v-.12c.723-.234 1.34-.952 1.34-1.899C11.277 4.352 10.13 3.5 8.492 3.5H5.062v9.054Zm1.554-7.65h1.67c.887 0 1.413.431 1.413 1.157 0 .737-.561 1.212-1.47 1.212H6.616V4.904Zm0 3.55h1.71c1.018 0 1.566.446 1.566 1.241 0 .837-.598 1.29-1.67 1.29H6.616V8.454Z"/>
+        <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4Z"/>
+      </svg>
+      <small class="d-block mb-3 text-muted">&copy; 2017</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Cool stuff</a></li>
+        <li><a class="link-secondary" href="#">Random feature</a></li>
+        <li><a class="link-secondary" href="#">Team feature</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Resource</a></li>
+        <li><a class="link-secondary" href="#">Resource name</a></li>
+        <li><a class="link-secondary" href="#">Another resource</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="#">Team</a></li>
+        <li><a class="link-secondary" href="#">Locations</a></li>
+        <li><a class="link-secondary" href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

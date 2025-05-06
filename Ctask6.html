@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+
+        }
+    
+        .main-container {
+          display: flex;
+          font-family: Georgia, serif;
+          background-color: #d1c62c;
+          color:purple;
+          width: 600px;
+          margin: 20px auto;
+          padding: 20px;
+          border: 1px dotted #ccc;
+        }
+    
+        .sidebar {
+          width: 250px;
+          margin-right: 20px;
+        }
+    
+        .sidebar a {
+          display: block;
+          margin-bottom: 10px;
+          padding: 6px 10px;
+          background-color: white;
+          text-decoration: purple;
+          color: #0000cc;
+          border-right: 20px solid black;
+        }
+    
+        .content {
+          flex-grow: 1;
+        }
+    
+        h1 {
+          color: purple;
+          font-weight: bold;
+          font-size: 1.8em;
+          margin-top: 0;
+        }
+    
+        p {
+          line-height: 1.4em;
+        }
+    
+        .footer {
+          font-style: italic;
+          color: purple;
+          border-top: 1px solid #999;
+          padding-top: 10px;
+          margin-top: 15px;
+          font-size: 0.9em;
+        }
+      </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+          <a href="#">Home page</a>
+          <a href="#">Musings</a>
+          <a href="#">My town</a>
+          <a href="#">Links</a>
+        </div>
+      
+        <div class="content">
+          <h1>My first styled page</h1>
+          <p>Welcome to my styled page!</p>
+          <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+          <p>There should be more here, but I don't know what yet.</p>
+          <div class="footer">
+            Made 5 April 2004<br>
+            <em>by myself.</em>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
